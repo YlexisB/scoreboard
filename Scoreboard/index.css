@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+     justify-content:space-around;
+   background-color:#00005C;
+   height:100vh;
+}
+ h3{
+  font-size:30px;   
+ position:relative;
+ bottom:-25px; 
+ color:white; 
+ }
+.home-section{
+ text-align:center; 
+;  
+}
+
+.guest-section{
+  text-align:center;    
+    
+}
+.versus{
+   position:relative;
+   top:0px;
+  font-size:100px;
+  color:white;     
+   
+}
+#home{
+ font-family: 'Press Start 2P', cursive;   
+  color:red;  
+   background-color:black;
+   padding:15px;
+  border-radius:10px;
+}
+
+
+#guest{
+  font-family: 'Press Start 2P', cursive;  
+    color:red;
+      background-color:black;
+  padding:15px;
+  border-radius:10px;
+    
+}
+
+button{
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  border: solid #0000D0 2px;
+  text-decoration: none;
+  background-color:#00005C;
+}
+
+button:hover {
+   background: #e63600;
+  background-image: -webkit-linear-gradient(top, #e63600, #0000D0);
+  background-image: -moz-linear-gradient(top, #e63600, #0000D0);
+  background-image: -ms-linear-gradient(top, #e63600, #0000D0);
+  background-image: -o-linear-gradient(top, #e63600, #0000D0);
+  background-image: linear-gradient(to bottom, #e63600, #0000D0);
+  text-decoration: none
+}
+#reset{
+ 
+    
+}
